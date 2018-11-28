@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="12B75E56888D411C93968A6B5FBC609A" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.twmm_add_to_package_definition" type="CommandBarItem">
+   <Item type="CommandBarMenuButton" id="5C44204DDEB746D8B06C0C8AD91D769A" action="add">
+    <label xml:lang="en">Add To Package Definition</label>
+    <on_click_handler keyed_name="labs_addItemToPackageDefinition" type="Method">8B76F8D6D28A4629876B655C61DF189D</on_click_handler>
+    <parent_menu keyed_name="com.aras.innovator.cui_default.twmm_admin_menu" type="CommandBarMenu">C0F48EBE314E4BFFA3EC2960A57E5249</parent_menu>
+    <name>labs.twmm_add_to_package_definition</name>
+   </Item>
+  </related_id>
+  <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+  <sort_order>2368</sort_order>
+  <source_id keyed_name="com.aras.innovator.cui_default.tearoff_window_main_menu" type="CommandBarSection">BDB17A0A3DF74336BBE40C81E16467F0</source_id>
+ </Item>
+</AML>

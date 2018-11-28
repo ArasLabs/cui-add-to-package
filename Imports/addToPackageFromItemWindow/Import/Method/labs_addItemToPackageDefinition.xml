@@ -1,0 +1,22 @@
+﻿<AML>
+ <Item type="Method" id="8B76F8D6D28A4629876B655C61DF189D" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[// First get the item that is opened in this window
+var itm = window.thisItem || window.item;
+if (!itm) {
+    return alert("Could not find an item from this window");
+}
+
+var itemId = itm.getAttribute("id");
+var itName = itm.getAttribute("type");
+
+if (itemId && itemType) {
+    var itemIdArr = [itemId]; // The function to add an item to a package definition only accepts an array
+    aras.addItemToPackageDef(itemIdArr, itName);
+} else {
+    return alert("Could not find item ID or item type for current item");
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>labs_addItemToPackageDefinition</name>
+ </Item>
+</AML>
