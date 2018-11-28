@@ -49,7 +49,7 @@ _Note: This project was built and tested using 11.0 SP15, but it should work in 
 	* This action will be hidden from non-adminsitrator users
 2. Open any Item
 3. In the Item's window or tab, select **Tools > Admin > Add to Package Definition**
-	* ![Action grom Item Window](Screenshots/Action from Item Window.png)
+	* ![screenshot](/Screenshots/Action from Item Window.png)
 4. Choose a package to add this item to
 5. Click **OK**
 6. Confirm that this Item was added to the package
