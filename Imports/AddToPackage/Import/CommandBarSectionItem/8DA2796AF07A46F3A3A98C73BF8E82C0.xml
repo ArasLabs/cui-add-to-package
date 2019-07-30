@@ -1,0 +1,18 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="8DA2796AF07A46F3A3A98C73BF8E82C0" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.relationships.commandbar.add_to_package" type="CommandBarItem">
+   <Item type="CommandBarMenuButton" id="CE0F0E9B1E78438C82F5805E1E184049" action="add">
+    <include_events>UpdateTearOffWindowState</include_events>
+    <label xml:lang="en">Add Relationship To Package Definition</label>
+    <on_click_handler keyed_name="labs_addRelationshipToPackage" type="Method">AB78226B643940679FF45FF6BA35960B</on_click_handler>
+    <on_init_handler keyed_name="labs_addRelshipToPackage_init" type="Method">81A23185042A4BB980A5E43B69D260A1</on_init_handler>
+    <parent_menu keyed_name="commonitems.commandbar.sharemenu" type="CommandBarMenu">3353902ED6E24641AB7B88FE0D58B696</parent_menu>
+    <name>labs.relationships.commandbar.add_to_package</name>
+   </Item>
+  </related_id>
+  <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+  <sort_order>1450</sort_order>
+  <source_id keyed_name="itemview.relationshipscommandbar.default" type="CommandBarSection">5BF61A015371461E9100C88F7BA07B9D</source_id>
+ </Item>
+</AML>

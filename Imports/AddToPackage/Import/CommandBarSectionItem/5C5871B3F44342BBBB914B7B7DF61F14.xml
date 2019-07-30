@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="5C5871B3F44342BBBB914B7B7DF61F14" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.relationships.commandbar.add_to_package.separator" type="CommandBarItem">
+   <Item type="CommandBarMenuSeparator" id="1D2991D789EE41D58929D1F3F1F2CC85" action="add">
+    <parent_menu keyed_name="commonitems.commandbar.sharemenu" type="CommandBarMenu">3353902ED6E24641AB7B88FE0D58B696</parent_menu>
+    <name>labs.relationships.commandbar.add_to_package.separator</name>
+   </Item>
+  </related_id>
+  <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+  <sort_order>1460</sort_order>
+  <source_id keyed_name="itemview.relationshipscommandbar.default" type="CommandBarSection">5BF61A015371461E9100C88F7BA07B9D</source_id>
+ </Item>
+</AML>

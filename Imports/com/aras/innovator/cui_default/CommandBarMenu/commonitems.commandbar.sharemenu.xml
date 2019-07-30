@@ -1,0 +1,5 @@
+﻿<AML>
+ <Item type="CommandBarMenu" id="3353902ED6E24641AB7B88FE0D58B696" action="edit">
+  <include_events>UpdateTearOffWindowState</include_events>
+ </Item>
+</AML>

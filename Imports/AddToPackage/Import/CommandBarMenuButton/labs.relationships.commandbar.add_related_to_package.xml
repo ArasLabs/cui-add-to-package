@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="8CCFCE1B5B774BDF8328B86C176116CA" action="add">
+  <include_events>UpdateTearOffWindowState</include_events>
+  <label xml:lang="en">Add Related Item To Package Definition</label>
+  <on_click_handler keyed_name="labs_addRelatedItemToPackage" type="Method">ADB24A60BD7E469C8370310A0F08FACC</on_click_handler>
+  <on_init_handler keyed_name="labs_addRelatedToPackage_init" type="Method">0B63E80962EE4EB88398E393ECFB27B8</on_init_handler>
+  <parent_menu keyed_name="commonitems.commandbar.sharemenu" type="CommandBarMenu">3353902ED6E24641AB7B88FE0D58B696</parent_menu>
+  <name>labs.relationships.commandbar.add_related_to_package</name>
+ </Item>
+</AML>

@@ -1,0 +1,6 @@
+﻿<AML>
+ <Item type="CommandBarMenuSeparator" id="4A2D8B13E1AE4FBA986F8EEAB4B27FB1" action="add">
+  <parent_menu keyed_name="itemview.itemcommandbar.default.share" type="CommandBarMenu">53B3D123C3DE46AC93738FC80C11CA62</parent_menu>
+  <name>labs.itemview.add_to_package.separator</name>
+ </Item>
+</AML>

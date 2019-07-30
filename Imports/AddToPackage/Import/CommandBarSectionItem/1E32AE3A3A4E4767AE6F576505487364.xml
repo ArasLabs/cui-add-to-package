@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="1E32AE3A3A4E4767AE6F576505487364" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.itemview.add_to_package.separator" type="CommandBarItem">
+   <Item type="CommandBarMenuSeparator" id="4A2D8B13E1AE4FBA986F8EEAB4B27FB1" action="add">
+    <parent_menu keyed_name="itemview.itemcommandbar.default.share" type="CommandBarMenu">53B3D123C3DE46AC93738FC80C11CA62</parent_menu>
+    <name>labs.itemview.add_to_package.separator</name>
+   </Item>
+  </related_id>
+  <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+  <sort_order>2010</sort_order>
+  <source_id keyed_name="itemview.itemcommandbar.default" type="CommandBarSection">9535D908269D4683AF278234E60BA227</source_id>
+ </Item>
+</AML>

@@ -1,3 +1,6 @@
 <imports>
-  <package name="aras.labs.addToPackageFromItemWindow" path="addToPackageFromItemWindow\Import" />
+  <package name="aras.labs.cui.AddToPackage" path="AddToPackage\Import" />
+  <package name="com.aras.innovator.cui_default" path=".\">
+    <dependson name="com.aras.innovator.cui" />
+  </package>
 </imports>

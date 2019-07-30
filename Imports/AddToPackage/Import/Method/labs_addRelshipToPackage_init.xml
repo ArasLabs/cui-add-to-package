@@ -1,0 +1,13 @@
+﻿<AML>
+ <Item type="Method" id="81A23185042A4BB980A5E43B69D260A1" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[// Make sure at least one item is selected in the grid
+var grid = this.grid;
+var isDisabled = !(grid && (grid.getSelectedItemIDs().length >= 1));
+return {
+    disabled: isDisabled
+}]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>labs_addRelshipToPackage_init</name>
+ </Item>
+</AML>

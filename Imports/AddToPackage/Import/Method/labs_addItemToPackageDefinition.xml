@@ -1,5 +1,5 @@
 ﻿<AML>
- <Item type="Method" id="8B76F8D6D28A4629876B655C61DF189D" action="add">
+ <Item type="Method" id="61A3D5C6E4594B46A0C5E2C7747BDFFB" action="add">
   <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
   <method_code><![CDATA[// First get the item that is opened in this window
 var itm = window.thisItem || window.item;

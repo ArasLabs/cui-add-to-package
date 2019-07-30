@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="CommandBarSectionItem" id="4EAFE4807D754210AB3519240839A251" action="add">
+  <action>Add</action>
+  <related_id keyed_name="labs.itemview.add_to_package_definition" type="CommandBarItem">
+   <Item type="CommandBarMenuButton" id="0AC5A33A69ED4873AA7689E10D9D5B6B" action="add">
+    <label xml:lang="en">Add To Package Definition</label>
+    <on_click_handler keyed_name="labs_addItemToPackageDefinition" type="Method">61A3D5C6E4594B46A0C5E2C7747BDFFB</on_click_handler>
+    <parent_menu keyed_name="itemview.itemcommandbar.default.share" type="CommandBarMenu">53B3D123C3DE46AC93738FC80C11CA62</parent_menu>
+    <name>labs.itemview.add_to_package_definition</name>
+   </Item>
+  </related_id>
+  <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+  <sort_order>2000</sort_order>
+  <source_id keyed_name="itemview.itemcommandbar.default" type="CommandBarSection">9535D908269D4683AF278234E60BA227</source_id>
+ </Item>
+</AML>

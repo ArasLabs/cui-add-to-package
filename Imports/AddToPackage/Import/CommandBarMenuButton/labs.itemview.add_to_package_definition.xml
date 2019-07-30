@@ -1,0 +1,8 @@
+﻿<AML>
+ <Item type="CommandBarMenuButton" id="0AC5A33A69ED4873AA7689E10D9D5B6B" action="add">
+  <label xml:lang="en">Add To Package Definition</label>
+  <on_click_handler keyed_name="labs_addItemToPackageDefinition" type="Method">61A3D5C6E4594B46A0C5E2C7747BDFFB</on_click_handler>
+  <parent_menu keyed_name="itemview.itemcommandbar.default.share" type="CommandBarMenu">53B3D123C3DE46AC93738FC80C11CA62</parent_menu>
+  <name>labs.itemview.add_to_package_definition</name>
+ </Item>
+</AML>

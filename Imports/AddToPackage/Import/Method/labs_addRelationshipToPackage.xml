@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Method" id="AB78226B643940679FF45FF6BA35960B" action="add">
+  <execution_allowed_to keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</execution_allowed_to>
+  <method_code><![CDATA[// First get the item that is opened in this window
+var grid = this.relationships.iframesCollection[this.relationships.currTabID].contentWindow.grid;
+var relationshipName = aras.getRelationshipTypeName(this.relationships.currTabID);
+if (!grid || !relationshipName) {
+    return alert("Could not find a relationship grid from this window");
+}
+
+aras.addItemToPackageDef(grid.getSelectedItemIDs(), relationshipName);]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>labs_addRelationshipToPackage</name>
+ </Item>
+</AML>
