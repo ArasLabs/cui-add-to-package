@@ -5,8 +5,16 @@
    <Item type="CommandBarMenuButton" id="CE0F0E9B1E78438C82F5805E1E184049" action="add">
     <include_events>UpdateTearOffWindowState</include_events>
     <label xml:lang="en">Add Relationship To Package Definition</label>
-    <on_click_handler keyed_name="labs_addRelationshipToPackage" type="Method">AB78226B643940679FF45FF6BA35960B</on_click_handler>
-    <on_init_handler keyed_name="labs_addRelshipToPackage_init" type="Method">81A23185042A4BB980A5E43B69D260A1</on_init_handler>
+    <on_click_handler keyed_name="labs_addRelationshipToPackage" type="Method">
+     <Item type="Method" action="get" select="id">
+      <keyed_name>labs_addRelationshipToPackage</keyed_name>
+     </Item>
+    </on_click_handler>
+    <on_init_handler keyed_name="labs_addRelshipToPackage_init" type="Method">
+     <Item type="Method" action="get" select="id">
+      <keyed_name>labs_addRelshipToPackage_init</keyed_name>
+     </Item>
+    </on_init_handler>
     <parent_menu keyed_name="commonitems.commandbar.sharemenu" type="CommandBarMenu">3353902ED6E24641AB7B88FE0D58B696</parent_menu>
     <name>labs.relationships.commandbar.add_to_package</name>
    </Item>

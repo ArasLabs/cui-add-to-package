@@ -9,6 +9,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v2.1](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v2.1) | Bug fixes
 [v2.0](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v2.0) | Updated for 12.0
 [v1](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v1) | Initial Release
 
@@ -16,6 +17,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v2.1](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v2.1) | 12.0 SP4, 12.0 SP5
 [v2.0](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v2.0) | 12.0
 [v1](https://github.com/ArasLabs/cui-add-to-package/releases/tag/v1) | 11.0 SP15, 11.0 SP12
 
